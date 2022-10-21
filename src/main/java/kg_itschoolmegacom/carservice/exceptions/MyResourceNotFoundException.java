@@ -4,8 +4,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
-public class MyRecourseNotFoundException extends RuntimeException{
-    public  MyResourceNotFoundException() {
+public class MyResourceNotFoundException extends RuntimeException{
+    public MyResourceNotFoundException() {
         super();
     }
     public MyResourceNotFoundException(String message, Throwable cause) {
